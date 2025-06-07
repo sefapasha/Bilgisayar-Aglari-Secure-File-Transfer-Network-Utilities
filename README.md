@@ -31,14 +31,10 @@ Ayrıca, Scapy ve diğer kütüphanelerle IP paketleri üzerinde TTL ve checksum
 2. İstemci tarafı çalıştırılır: python client.py
 3. Dosya received_file.txt olarak sunucuya kaydedilir ve bütünlük doğrulaması yapılır.
 4. performance.py ile gecikme süresi ölçülür.
-5. ip_utils.py veya scapy_packet.py ile IP paketleri üzerinde TTL ve checksum işlemleri denenebilir.
+5. ip_utils.py ile IP paketleri üzerinde TTL ve checksum işlemleri denenebilir.
 
 ## 📌 Gereksinimler
-Python 3.8+
-PyCryptodome
-Scapy
-iPerf3 (isteğe bağlı, sadece bant genişliği testi için)
-Wireshark
+Python 3.8+, PyCryptodome, Scapy, iPerf3 (isteğe bağlı, sadece bant genişliği testi için), Wireshark
 
 Kurulum için:
 pip install pycryptodome scapy
@@ -54,6 +50,6 @@ pip install pycryptodome scapy
 ├── ip_utils.py          # IP header oluşturma, checksum hesaplama, paket gönderme
 ├── perfomance.py        # Ping gecikme ölçümü
 └── file_to_send.txt     # Gönderilecek örnek dosya
-
-## 📺 Youtube Video Linki
+```
+📺 Youtube Video Linki
 https://youtu.be/-s8U8dugE5Y
